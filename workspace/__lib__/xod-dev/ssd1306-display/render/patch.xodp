@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "id": "BJblG9nrGU",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "id": "ByNGc2HfL",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 1
+      },
+      "type": "@/input-ssd1306"
+    },
+    {
+      "id": "HJMlfq2rGU",
+      "label": "ACK",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "id": "HyIz52rfL",
+      "label": "DEV'",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 3
+      },
+      "type": "@/output-ssd1306"
+    },
+    {
+      "id": "rJmgf92BGL",
+      "label": "GFX",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 1
+      },
+      "type": "xod/graphics/input-graphics"
+    },
+    {
+      "id": "rylfchrzI",
+      "label": "DO",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    }
+  ]
+}

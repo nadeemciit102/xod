@@ -1,0 +1,6 @@
+{
+  "description": "Nodes to drive SD1306 based monochrome LCD displays with I2C interfaces.",
+  "license": "AGPL-3.0",
+  "name": "sd1306-display",
+  "version": "0.32.1"
+}

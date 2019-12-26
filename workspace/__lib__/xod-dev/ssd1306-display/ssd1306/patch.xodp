@@ -1,0 +1,32 @@
+{
+  "nodes": [
+    {
+      "id": "rkb4KFnBzL",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "id": "ryVFF3SzL",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/utility"
+    },
+    {
+      "id": "ryxEtY3rz8",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/output-self"
+    }
+  ]
+}
