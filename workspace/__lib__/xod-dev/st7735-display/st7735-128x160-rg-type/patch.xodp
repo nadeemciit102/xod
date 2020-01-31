@@ -1,0 +1,122 @@
+{
+  "links": [
+    {
+      "id": "B1DyfTnJkL",
+      "input": {
+        "nodeId": "H1yMTn11L",
+        "pinKey": "HJj9pURTS"
+      },
+      "output": {
+        "nodeId": "BJM1MThyyI",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "HkUkMTnkJI",
+      "input": {
+        "nodeId": "H1yMTn11L",
+        "pinKey": "Hyei5T8Car"
+      },
+      "output": {
+        "nodeId": "HyZJf62yyL",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SJY1zp2yy8",
+      "input": {
+        "nodeId": "H1yMTn11L",
+        "pinKey": "SyR6ch1yI"
+      },
+      "output": {
+        "nodeId": "HkNJMp3J1U",
+        "pinKey": "B23RV3eJq"
+      }
+    },
+    {
+      "id": "Skt_cTbf8",
+      "input": {
+        "nodeId": "HykgmMvWL",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "H1yMTn11L",
+        "pinKey": "H1tCp806r"
+      }
+    },
+    {
+      "id": "ryukMTnky8",
+      "input": {
+        "nodeId": "H1yMTn11L",
+        "pinKey": "rkGj9T8R6B"
+      },
+      "output": {
+        "nodeId": "rk7kMTnykU",
+        "pinKey": "__out__"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "BJM1MThyyI",
+      "label": "DC",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-port"
+    },
+    {
+      "id": "H1yMTn11L",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "@/st7735-128x160"
+    },
+    {
+      "boundLiterals": {
+        "B23RV3eJq": "02d"
+      },
+      "id": "HkNJMp3J1U",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/core/constant-byte"
+    },
+    {
+      "id": "HyZJf62yyL",
+      "label": "CS",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-port"
+    },
+    {
+      "id": "HykgmMvWL",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "@/output-st7735"
+    },
+    {
+      "id": "rk7kMTnykU",
+      "label": "RST",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-port"
+    }
+  ]
+}

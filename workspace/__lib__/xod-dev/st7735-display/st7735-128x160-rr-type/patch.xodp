@@ -1,0 +1,122 @@
+{
+  "links": [
+    {
+      "id": "BJYLla3yyU",
+      "input": {
+        "nodeId": "HkUgahkkL",
+        "pinKey": "SyR6ch1yI"
+      },
+      "output": {
+        "nodeId": "rJ4IlTn1y8",
+        "pinKey": "B23RV3eJq"
+      }
+    },
+    {
+      "id": "Bkw8l6nkk8",
+      "input": {
+        "nodeId": "HkUgahkkL",
+        "pinKey": "HJj9pURTS"
+      },
+      "output": {
+        "nodeId": "rJzLx63Jy8",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "By_UeT2kJI",
+      "input": {
+        "nodeId": "HkUgahkkL",
+        "pinKey": "rkGj9T8R6B"
+      },
+      "output": {
+        "nodeId": "H1Q8xThy1I",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "HyZK9TZGU",
+      "input": {
+        "nodeId": "SkXz7zDZ8",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "HkUgahkkL",
+        "pinKey": "H1tCp806r"
+      }
+    },
+    {
+      "id": "SyILeTh1J8",
+      "input": {
+        "nodeId": "HkUgahkkL",
+        "pinKey": "Hyei5T8Car"
+      },
+      "output": {
+        "nodeId": "BkbUxphy1L",
+        "pinKey": "__out__"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "BkbUxphy1L",
+      "label": "CS",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-port"
+    },
+    {
+      "id": "H1Q8xThy1I",
+      "label": "RST",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-port"
+    },
+    {
+      "id": "HkUgahkkL",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "@/st7735-128x160"
+    },
+    {
+      "id": "SkXz7zDZ8",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "@/output-st7735"
+    },
+    {
+      "boundLiterals": {
+        "B23RV3eJq": "03d"
+      },
+      "id": "rJ4IlTn1y8",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/core/constant-byte"
+    },
+    {
+      "id": "rJzLx63Jy8",
+      "label": "DC",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-port"
+    }
+  ]
+}

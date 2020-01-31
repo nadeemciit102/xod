@@ -1,0 +1,6 @@
+{
+  "description": "Nodes to drive ST7735 based TFT LCD displays with SPI interfaces.",
+  "license": "AGPL-3.0",
+  "name": "st7735-display",
+  "version": "0.32.1"
+}

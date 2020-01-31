@@ -1,0 +1,122 @@
+{
+  "links": [
+    {
+      "id": "H1Iii2hkJI",
+      "input": {
+        "nodeId": "rkson2kyU",
+        "pinKey": "Hyei5T8Car"
+      },
+      "output": {
+        "nodeId": "H1Wsj3ny1U",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "Hyffca-GL",
+      "input": {
+        "nodeId": "H1eji33yyI",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "rkson2kyU",
+        "pinKey": "H1tCp806r"
+      }
+    },
+    {
+      "id": "SJ_oonnJy8",
+      "input": {
+        "nodeId": "rkson2kyU",
+        "pinKey": "rkGj9T8R6B"
+      },
+      "output": {
+        "nodeId": "SkXis33ykL",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "ryFjinhyyU",
+      "input": {
+        "nodeId": "rkson2kyU",
+        "pinKey": "SyR6ch1yI"
+      },
+      "output": {
+        "nodeId": "rJ4sjhn11I",
+        "pinKey": "B23RV3eJq"
+      }
+    },
+    {
+      "id": "ryPso22JJI",
+      "input": {
+        "nodeId": "rkson2kyU",
+        "pinKey": "HJj9pURTS"
+      },
+      "output": {
+        "nodeId": "BJfish2k18",
+        "pinKey": "__out__"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "BJfish2k18",
+      "label": "DC",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-port"
+    },
+    {
+      "id": "H1Wsj3ny1U",
+      "label": "CS",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-port"
+    },
+    {
+      "id": "H1eji33yyI",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "@/output-st7735"
+    },
+    {
+      "id": "SkXis33ykL",
+      "label": "RST",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-port"
+    },
+    {
+      "boundLiterals": {
+        "B23RV3eJq": "01d"
+      },
+      "id": "rJ4sjhn11I",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 0
+      },
+      "type": "xod/core/constant-byte"
+    },
+    {
+      "id": "rkson2kyU",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "@/st7735-128x160"
+    }
+  ]
+}
